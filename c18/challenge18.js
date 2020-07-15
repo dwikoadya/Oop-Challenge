@@ -308,7 +308,7 @@ class Matakuliah {
   list() {
     this.db.serialize(() => {
       let sql = "SELECT * FROM mata_kuliah";
-      this.db.all(sql, (err, rows) => {
+      this.db.all(sql, (err, rows ) => {
         if (err) {
           throw err;
         } else {
