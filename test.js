@@ -85,5 +85,5 @@ class CarFactory {
 
 let honda = new CarFactory
 honda.produksi(2018)
-
+honda.produksi(2020)
 honda.garansi(2023)
